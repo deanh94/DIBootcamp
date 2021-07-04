@@ -40,3 +40,5 @@ console.log("The cat age is " +catAge);
 console.log("The cat" +catName + "is" +catAge + "years old"); 
 console.log(`The cat ${catName} + "is" +catAge + "years old"); //the same thing
 
+
+console.log("hello!1234567".length); //length of characters in string
