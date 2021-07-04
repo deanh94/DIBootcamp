@@ -1,0 +1,78 @@
+@import url('https://fonts.google.com/specimen/Anton#standard-styles');
+
+body{
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4;
+}
+
+
+.navbar {background: #ff9f83;
+}
+
+.nav-link, .navbar-brand { color: #f4f4f4; cursor: pointer;}
+
+.navbar {
+  min-height: 20px;
+}
+
+.navbar-brand {
+  padding: 0 10px;
+  height: 20px;
+  line-height: 20px;
+}
+
+}
+
+.header {
+	height: 100vh;
+	background-image: src="https://unsplash.com/photos/McsNra2VRQQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+ 	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100vh;
+	min-width: 100vw;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+	}
+
+.description{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+	color:#ff9f83;
+	text-align: left;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #ff9f83;
+	background: #ff9f83;
+	color:#fff;
+}
+
+section, article{
+	margin: 40em 0;
+	position: relative;
+}
+section h1, article h1{
+	color:#ff9f83;
+	margin-bottom: 2em;
+}
+
+
+
