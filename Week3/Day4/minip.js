@@ -36,3 +36,13 @@ for (fill_block of fill_blocks){
     });
 }
 
+for (let i = 0; i < 1440; i++)
+let emptyBox;
+for (let i = 0; i < 1440; i++) {
+emptyBox = document.createElement("div");
+emptyBox.setAttribute("class", "emptyBox");
+emptyBox.addEventListener("click", assignColor)
+emptyBox.addEventListener("mousedown", mouseDown)
+emptyBox.addEventListener("mouseover", mouseOver)
+canvasBoard.appendChild(emptyBox);
+}
