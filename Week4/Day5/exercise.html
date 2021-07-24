@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Find your robot..">
+
+
+    <style>
+        .card{
+            width: 400px;
+            height: 500px;
+            background-color: rgb(47, 158, 196);
+            padding: 10px;
+            margin: 30px;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        #root {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;       
+        }
+        
+        #myInput { 
+        width: 100%; 
+        font-size: 16px; 
+        padding: 12px 20px 12px 40px; 
+        border: 1px solid #ddd; 
+        margin-bottom: 12px; 
+        }
+        #myUL {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        }
+
+        body {
+        background-image: url("circuit.png");
+        background-color: #cccccc; 
+        background-repeat: no-repeat;
+        background-size: 90%, 5%;
+        background-position: center;
+        }
+    </style>
+    <!-- <div id = 'main'> -->
+    <div id = 'root'></div>
+    </div>
+
+<script src="exercise.js"></script>
+</body>
+</html>
