@@ -1,8 +1,8 @@
-// const loadBox = document.getElementById("vanilla")
+const loadBox = document.getElementById("vanilla")
 const monkeys = document.getElementById("box")
 const loadTxt = document.createElement("p")
 loadTxt.textContent = "hold on.."
-// loadbox.appendChild(loadTxt)
+loadbox.appendChild(loadTxt)
 
 const errormsg = document.createElement("p")
 errormsg.textContent = "that person isn't available" 
@@ -33,7 +33,7 @@ const jedi = async() => {
     catch{
         console.log("theres a problem!")
         monkeys.appendChild(errormsg)
-        // setTimeout(() => monkeys.removeChild(errormsg),3000)
+        setTimeout(() => monkeys.removeChild(errormsg),3000)
     }
 
     }
