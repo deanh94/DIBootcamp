@@ -1,0 +1,1 @@
+to use module syntax add "type": "module" in the top lvl of the package.json
