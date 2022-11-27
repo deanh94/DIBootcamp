@@ -45,7 +45,7 @@ if (bankAmt >= 20000) {
 } else if (bankAmt ==18000){
 	//if the conditions 1 is false
 	//and the condition 2 is true
-}
+
 
 } else {
 	// if all the conditions above are false
