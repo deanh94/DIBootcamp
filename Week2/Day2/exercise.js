@@ -1,23 +1,22 @@
+		// Exercise 1 //
 let x = 5;
-let y = 2;
+let y = 2; 
 
-if (x > y){
-
+if (x > y) {
 	console.log("x is the bigger number");
 } else {
-	"y is the bigger number";
+	console.log("y is the bigger number");
 }
 
-
-
-
-let newDog = "Chihuahua";
+		// Exercise 2 //
+let newDog = "Chihuahua"; // PART 1 //
 	
-	console.log(newDog);
-var dogchar = newDog.length;
+console.log(newDog);
+var dogchar = newDog.length; // PART 2 //
 console.log(newDog.length);
-
-if (newDog = "Chihuahua"){
+console.log(newDog.toUpperCase()); // PART 3 //
+console.log(newDog.toLowerCase());
+if (newDog = "Chihuahua"){		// PART 4 //
 	console.log("I love Chihuahuas, it's my favorite dog breed");
 
 } else {
@@ -25,23 +24,19 @@ if (newDog = "Chihuahua"){
 }
 
 
-
-
-let user = parseInt(prompt("write a number"));
-
+		// Exercise 3 //
+let user = prompt("write a number");
 console.log(user);
 
-function isOdd(user) { return user % 2;}
-if (user == 2){
-	console.log("x is an even number");
-}else {
-	console.log("x is an odd number");
-}
+if (user % 2 == 0) {
+	console.log("even")
+} else {
+	console.log("odd")
+};
 
-
-
-let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"]
-console.log(users);
+		// Exercise 4 //
+// let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"]
+// console.log(users);
 
 
 
