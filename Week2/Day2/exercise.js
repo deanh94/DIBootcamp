@@ -35,9 +35,12 @@ if (user % 2 == 0) {
 };
 
 		// Exercise 4 //
-// let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"]
-// console.log(users);
+let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
+console.log(users);
 
+if (users = "") {
+	console.log("no one is online");
+}
 
 
 
