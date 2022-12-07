@@ -1,8 +1,19 @@
-let sentence = ("The movie is not that bad, I like it");
-let wordNot = sentence.indexOf("not");
-let wordBad = sentence.indexOf("bad");
+                        // EXERCISE 1 //
+const language = prompt("What language do you speak?");
 
-if (wordNot < wordBad) {
-console.log(sentence);
-}
-
+switch (language) {
+    case "English":
+    case "english": 
+        console.log("Hello");
+        break;
+    case "French":
+    case "french": 
+        console.log("Bonjour");
+        break;
+    case "Hebrew":
+    case "hebrew":
+        console.log("Shalom");
+        break;
+    default:
+        console.log("01110011 01101111 01110010 01110010 01111001");
+};
