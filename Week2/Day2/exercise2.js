@@ -1,4 +1,4 @@
-                        // EXERCISE 1 //
+                       // EXERCISE 1 //
 const language = prompt("What language do you speak?");
 
 switch (language) {
@@ -16,4 +16,17 @@ switch (language) {
         break;
     default:
         console.log("01110011 01101111 01110010 01110010 01111001");
+};
+
+                        // EXERCISE 2 // 
+const grade = prompt("What is your grade?");
+
+if (grade > 90) {
+    console.log("A");
+} if (grade >= 80 || grade == 90) {
+    console.log("B");
+} if (grade >= 70 || grade == 80) {
+    console.log("C");
+} else if (grade < 70) {
+    console.log("D");
 };
