@@ -30,3 +30,13 @@ if (grade > 90) {
 } else if (grade < 70) {
     console.log("D");
 };
+
+                        // EXERCISE 3 //
+const words = prompt("Enter your hobby!");
+if (words > 3 || !words.includes('ing')) {
+    console.log('swimming');
+} if (words > 3 || words.includes('ing')) {
+    console.log('swimmingly');
+} else if (words < 3) {
+    console.log('swim');
+}
