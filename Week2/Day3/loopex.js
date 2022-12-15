@@ -56,7 +56,7 @@ if (username == "John"){
 	username = "Tom";
 };
 //GLOBAL SCOPE
-console.log(username)
+console.log(username);
 //CONSTANT VARIABLES
 const taxes = 17;
 taxes = 12
