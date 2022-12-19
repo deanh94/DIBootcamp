@@ -64,3 +64,11 @@ for (let i in colors) {
     console.log(i); //0 1 2
     console.log(colors[i]); //blue yellow red
 };
+
+            // FOR/OF LOOP //
+//Loops through (values) INSIDE Arrays & Strings.
+let color2 = ["blue", "yellow", "red"];
+
+for (let i of color2) {
+   console.log(i); // logs blue, yellow, red
+}
