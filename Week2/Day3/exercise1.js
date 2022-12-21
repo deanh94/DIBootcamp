@@ -1,9 +1,3 @@
-// var colors = ["red" , "blue" , "green" , "orange"];
-// console.log(colors);
-
-// for (var i = 0; i < colors.length; i++){
-//  colors[i] = "My choice is " + colors[i];
-// }
                         // EXERCISE 1 PART 1 //
 const people = ["Greg", "Mary", "Devon", "James"];
 people.shift(); // 1. Write code to remove “Greg” from the people array.
@@ -35,4 +29,25 @@ for (let i = 0; i < 5; i++) { // 2. Iterate through the array and stop at Jason.
     console.log(people[i]);
 };
                         // EXERCISE 2 //
-
+let colors = ["red","blue","green","yellow","orange"];
+// for (let i in colors) {
+//     console.log("My # " + (i) + " choice is " + colors[i]);  // part 2 
+// };
+for (var i = 0; i < colors.length; i++){
+    (function ordinal_suffix_of(i) {
+        var j = i % 10,
+        k = i % 100;
+            if (j == 1) {
+                return i + "st"
+            }
+            if (j == 2) {
+                return i + "nd"
+            }
+            if (j == 2) {
+                return i + "rd"
+            } else
+            return i + "th"
+    })
+    console.log("My " + ordinal_suffix_of(i) + "choice is " + colors[i]); // part 3 
+}
+// let thingy = prompt("Please enter your number."); // EX 3 
