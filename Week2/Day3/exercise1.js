@@ -48,6 +48,62 @@ for (var i = 0; i < colors.length; i++){
             } else
             return i + "th"
     })
-    console.log("My " + ordinal_suffix_of(i) + "choice is " + colors[i]); // part 3 
+    // console.log("My " + ordinal_suffix_of(i) + "choice is " + colors[i]); // part 3 
+};
+
+                        // EXERCISE 3 //
+// var n = prompt("Please enter your number."); 
+// console.log(typeof n); // Part 1 answer: a string.
+// while (n < 10) {
+//     n++;
+//     n = prompt("Not good enough");
+// };
+
+                        // EXERCISE 4 //
+const building = {
+    numberOfFloors: 4,
+    numberOfAptByFloor: {
+        firstFloor: 3,
+        secondFloor: 4,
+        thirdFloor: 9,
+        fourthFloor: 2,
+    },
+    nameOfTenants: ["Sarah", "Dan", "David"],
+    numberOfRoomsAndRent:  {
+        sarah: [3, 990],
+        dan:  [4, 1000],
+        david: [1, 500],
+    },
+} // part 1 
+console.log(building.numberOfFloors); // part 2 
+console.log(building.numberOfAptByFloor.firstFloor + building.numberOfAptByFloor.thirdFloor); // part 3 
+console.log(building.nameOfTenants[1] + building.numberOfRoomsAndRent.dan[0]); // part 4 
+console.log(building.numberOfRoomsAndRent.sarah[1] + building.numberOfRoomsAndRent.david[1]); 
+console.log(building.numberOfRoomsAndRent.dan[1] + 200); // part 5 
+
+                        // EXERCISE 5 //
+let family = {
+    parents: ["Mom", "Dad"],
+    kids: ["Samantha", "Sadie", "Samuella"]
 }
-// let thingy = prompt("Please enter your number."); // EX 3 
+for (let x in family) {
+    console.log(x);
+    console.log(family[x]);
+};
+
+                        // EXERCISE 6 //
+const details = {
+  my: 'name',
+  is: 'Rudolf',
+  the: 'raindeer'
+}
+for (let x in details) {
+    console.log(x + " " + details[x]);
+}
+
+                        // EXERCISE 7 //
+const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
+names.sort();
+console.log(names);
+const secretMessage = names.map((names) => names[0]).join(' ')
+console.log(secretMessage);
