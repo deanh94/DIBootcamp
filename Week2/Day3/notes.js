@@ -71,4 +71,4 @@ let color2 = ["blue", "yellow", "red"];
 
 for (let i of color2) {
    console.log(i); // logs blue, yellow, red
-}
+} // only works in arrays and strings.

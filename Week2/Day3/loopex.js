@@ -14,7 +14,7 @@ if (wordNot != -1 && wordBad != -1 && wordNot<wordBad){
 	let newSentence = sentenceArray.join(" ");
 	console.log("the new sentence is : ", newSentence);
 } else {
-	console.log(sentence)
+	console.log(sentence);
 }
 //LESSON
 // INTRODUCTION ON LOOPS
